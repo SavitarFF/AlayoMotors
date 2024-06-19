@@ -428,7 +428,7 @@ p.subtitle {
 @media (max-width: 768px) {
   .card {
     max-width: none;
-    height: 20em;
+    height: 21em;
   }
 }
 
