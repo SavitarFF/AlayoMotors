@@ -14,6 +14,8 @@
     integrity="sha512-tMVa7fSeQlp6i1a84qxLLdZWcY+DMWNkXgEZTBcEx5vO2PivlaD9GGeywJDGE+km5Tm9wUKpFe39wsCZ2J+8NA==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
 
 </head>
 <body>
@@ -55,7 +57,7 @@
     </div>
       
 
-
+    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
     <section class="new-hero">
         <div class="new-overlay"></div>
 
@@ -87,9 +89,10 @@
                 </div>
             
         </div>
-
     </section>
-    
+</div>
+
+<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"> 
     <section class="orange-hero">
         <div class="orange-overlay"></div>
         <div class="orange-content">
@@ -172,7 +175,9 @@
             </div>
         </div>
     </section>
+</div>
 
+<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
     <section class="contact-hero">
         <div class="contact-overlay"></div>
         <div class="contact-content">
@@ -202,7 +207,7 @@
                         <div class="custom-icon"><i class="fas fa-envelope"></i></div>
                         <div class="custom-info">
                             <h3 class="custom-info">Correo</h3>
-                            <p class="custom-info">Alayomotors@hotmail.com</p>
+                            <p class="custom-info">AlayoMotors@gmail.com</p>
                         </div>
                     </div>
                     <div class="custom-social-icons">
@@ -222,7 +227,9 @@
                 </div>
         </div>
     </section>
-    
+</div>
+
+    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
     <section class="galery-hero">
         <div class="galery-overlay"></div>
         <div class="galery-content">
@@ -244,7 +251,7 @@
             </div>
         </div>
     </section>
-
+</div>
     
     <footer class="footer">
         <div class="footer-content">
@@ -284,23 +291,10 @@
             <p>&copy; Alayo Motors 2024. Todos los derechos reservados.</p>
         </div>
     </footer>
-    <script>
-        const scrollers = document.querySelectorAll(".scroller");
-        addAnimation();
-
-        function addAnimation() {
-            scrollers.forEach((scroller) => {
-                scroller.setAttribute("data-animated", true);
-
-                const scrollerInner = scroller.querySelector(".scroller__inner");
-                const scrollerContent = Array.from(scrollerInner.children);
-                scrollerContent.forEach((item) => {
-                    const duplicatedItem = item.cloneNode(true);
-                    duplicatedItem.setAttribute("aria-hidden", true);
-                    scrollerInner.appendChild(duplicatedItem);
-                });
-            });
-        }
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+    
     </body>
     </html>
