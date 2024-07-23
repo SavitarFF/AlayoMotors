@@ -32,27 +32,25 @@
 .content {
   max-width: 800px;
   width: 90%;
-  /* Usa un porcentaje para adaptarse mejor a diferentes tamaños de pantalla */
   margin: 0 auto;
   padding: 0 20px;
 }
 
 .content h4 {
   font-size: 3rem;
-  /* Usa 'rem' para escalabilidad */
   margin-bottom: 20px;
   font-family: "Anton", sans-serif;
   color: #fff;
   text-align: left;
   font-weight: 500;
+  text-shadow: 2px 2px 2px rgb(0, 38, 255);
 }
 
 .content p {
   font-size: 1.75rem;
-  /* Usa 'rem' para escalabilidad */
   margin-bottom: 50px;
-  /* Reduce el espacio inferior */
   text-align: left;
+  text-shadow: 2px 2px 2px rgb(0, 38, 255);
 }
 
 .btn {
@@ -285,6 +283,7 @@ p.subtitle {
   font-family: "Anton", Sans-serif;
   margin-left: 0;
   margin-top: -12vh;
+  color: #c9c9c9;
 }
 
 .orange-content p {
@@ -349,6 +348,8 @@ p.subtitle {
   position: relative;
   transform-style: preserve-3d;
   transition: all 600ms;
+  border: 2px solid #cecece;
+  border-radius: 5px;
 }
 
 .card__front {
@@ -382,7 +383,8 @@ p.subtitle {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: orange;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
   transform: translateZ(60px);
 }
 
@@ -434,6 +436,89 @@ p.subtitle {
   }
 }
 
+/**/
+
+.seccion-mantenimiento {
+  border-bottom: 1px solid #000;
+  display: flex;
+  flex-direction: column; /* Cambia a column para dispositivos móviles */
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  box-sizing: border-box;
+
+}
+
+.seccion-mantenimiento .texto {
+  width: 100%; /* Ocupa todo el ancho en dispositivos pequeños */
+  padding: 20px;
+}
+
+.seccion-mantenimiento .imagen {
+  width: 100%; /* Ocupa todo el ancho en dispositivos pequeños */
+  padding: 20px;
+}
+
+.seccion-mantenimiento img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 0;
+}
+
+.seccion-mantenimiento h2 {
+  font-size: 2.5em;
+  color: #336699;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.seccion-mantenimiento p {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.seccion-mantenimiento ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #333;
+}
+
+.seccion-mantenimiento ul li {
+  margin-bottom: 5px;
+}
+
+.seccion-mantenimiento a {
+  color: #336699;
+  text-decoration: none;
+}
+
+.seccion-mantenimiento a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .seccion-mantenimiento {
+    flex-direction: row; /* Cambia a row en pantallas más grandes */
+  }
+
+  .seccion-mantenimiento .texto {
+    width: 60%;
+  }
+
+  .seccion-mantenimiento .imagen {
+    width: 40%;
+  }
+}
+
+
+
+
+/**/
 .contact-hero {
   display: flex;
   position: relative;
