@@ -1,8 +1,9 @@
 .footer {
     background-color: #000; 
-    color: #fff; 
+    color: #d4d4d4; 
     padding: 60px;
     border-top: 1px solid #ccc; 
+    text-shadow: 2px 2px 2px rgb(255, 94, 0);
 }
 
 .footer-content {
