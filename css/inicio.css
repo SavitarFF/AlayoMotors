@@ -208,6 +208,7 @@ p.subtitle {
 
   .feature .additional-image {
     max-width: 250px;
+    height: auto;
   }
 }
 
@@ -224,6 +225,7 @@ p.subtitle {
 
   .feature .additional-image {
     max-width: 200px;
+    height: auto;
   }
 }
 
