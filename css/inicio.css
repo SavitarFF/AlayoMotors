@@ -448,8 +448,10 @@ p.subtitle {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #ff6016;
+  background-image: url('../img/fondo002.jpg');
 }
+
+
 .seccion-mantenimiento {
   display: flex;
   flex-direction: column; /* Cambia a column para dispositivos móviles */
@@ -478,14 +480,14 @@ p.subtitle {
   display: block;
   border-radius: 20px;
   margin: 0;
-  border: 2px solid #000000;
+  border: 2px solid #ffffff;
   margin-bottom: 65px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.555);
 }
 
 .seccion-mantenimiento h2 {
   font-size: 2.5em;
-  color: #01063e;
+  color: #ffffff;
   margin-bottom: 20px;
   font-weight: 800;
 }
@@ -494,7 +496,7 @@ p.subtitle {
   font-weight: 500;
   font-size: 1.1em;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: #79bcff;
 }
 
 .seccion-mantenimiento ul {
@@ -510,7 +512,7 @@ p.subtitle {
 }
 
 .seccion-mantenimiento a {
-  color: #336699;
+  color: #eef7ff;
   text-decoration: none;
 }
 
@@ -617,7 +619,7 @@ p.subtitle {
 }
 
 .custom-contact-info {
-  background-color: #ff6016;
+  background-color: #000000;
   color: white;
   padding: 45px;
   width: 45%;
@@ -651,14 +653,13 @@ p.subtitle {
 .custom-icon {
   font-size: 36px;
   margin-right: 20px;
-  background: white;
   border-radius: 50%;
   width: 50px;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #3f51b5;
+  color: #90a0ff;
 }
 
 .custom-info h3 {
@@ -712,14 +713,13 @@ p.subtitle {
 .custom-social-icons {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 2px;
 }
 
 .custom-social-icons a {
   font-size: 45px;
   margin: 0 20px;
   transition: all 0.3s ease;
-  background-color: #fff;
   border-radius: 100px;
   width: 50px;
   height: 59px;
@@ -738,7 +738,7 @@ p.subtitle {
 }
 
 .custom-social-icons a.tiktok {
-  color: #000000;
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
