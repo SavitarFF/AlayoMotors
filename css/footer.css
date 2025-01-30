@@ -54,17 +54,16 @@
     text-decoration: none;
     font-size: 30px;
     transition: color 0.3s ease;
-    background-color: #fff;
     border-radius: 2px;
 }
 
 
 .social-icons a[href*="facebook.com"] {
-    color: #1760ff; 
+    color: #3072ff; 
 }
 
 .social-icons a[href*="tiktok.com"] {
-    color: #000000; 
+    color: #ffffff; 
 }
 
 .social-icons a[href*="instagram.com"] {
